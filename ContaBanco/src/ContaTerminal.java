@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ContaTerminal {
 
     private int numero;
@@ -55,7 +57,22 @@ public class ContaTerminal {
     }
 
     public static void main(String[] args) {
-        ContaTerminal conta = new ContaTerminal(1021, "067-8", "MARIO ANDRADE", 237.48);
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite o número da conta:");
+        int numero = scanner.nextInt();
+        scanner.nextLine(); 
+
+        System.out.println("Digite a agência:");
+        String agencia = scanner.nextLine();
+
+        System.out.println("Digite o nome do cliente:");
+        String nomeCliente = scanner.nextLine();
+
+        System.out.println("Digite o saldo:");
+        double saldo = scanner.nextDouble();
+
+        ContaTerminal conta = new ContaTerminal(numero, agencia, nomeCliente, saldo);
         System.out.println(conta);
     }
 }
