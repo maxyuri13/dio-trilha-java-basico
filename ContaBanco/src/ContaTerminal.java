@@ -5,7 +5,7 @@ public class ContaTerminal {
     private String nomeCliente;
     private double saldo;
 
-    public ContaBancaria(int numero, String agencia, String nomeCliente, double saldo) {
+    public ContaTerminal(int numero, String agencia, String nomeCliente, double saldo) {
         this.numero = numero;
         this.agencia = agencia;
         this.nomeCliente = nomeCliente;
@@ -44,8 +44,18 @@ public class ContaTerminal {
         this.saldo = saldo;
     }
 
+    @Override
+    public String toString() {
+        return "ContaBancaria{" +
+                "numero=" + numero +
+                ", agencia='" + agencia + '\'' +
+                ", nomeCliente='" + nomeCliente + '\'' +
+                ", saldo=" + saldo +
+                '}';
+    }
+
     public static void main(String[] args) {
-        // ContaBancaria conta = new ContaBancaria();
-        // System.out.println(conta);
+        ContaTerminal conta = new ContaTerminal(1021, "067-8", "MARIO ANDRADE", 237.48);
+        System.out.println(conta);
     }
 }
