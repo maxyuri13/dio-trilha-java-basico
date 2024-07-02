@@ -1,18 +1,30 @@
-## Getting Started
+# Desafio de Sintaxe - DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma resolução do desafio proposto pela Digital Innovation One (DIO) no módulo de Sintaxe, onde desenvolvi uma aplicação simples para simular características de uma conta bancária.
 
-## Folder Structure
+## Descrição do Desafio
 
-The workspace contains two folders by default, where:
+O objetivo do desafio era criar um programa Java chamado `ContaBanco` que permitisse ao usuário inserir dados via terminal, representando os atributos de uma conta bancária. Após a inserção dos dados, o programa deveria exibir uma mensagem personalizada com as informações fornecidas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Atributos da Conta Bancária
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Atributo      | Tipo     | Exemplo       |
+| ------------- | -------- | ------------- |
+| Número        | Inteiro  | 1021          |
+| Agência       | Texto    | 067-8         |
+| Nome do Cliente | Texto  | MARIO ANDRADE |
+| Saldo         | Decimal  | 237.48        |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Instruções
 
-## Dependency Management
+1. Compile e execute a classe `AccountTerminal.java`.
+2. Siga as instruções no terminal para inserir os dados solicitados: número da conta, agência, nome do cliente e saldo.
+3. Após inserir todas as informações, o programa exibirá uma mensagem personalizada com os dados fornecidos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este projeto foi uma excelente oportunidade para praticar conceitos como entrada de dados pelo terminal, manipulação de strings e formatação de saída em Java.
+
+---
+
+Para mais detalhes sobre o desafio, visite [DIO - Trilha Java Básico - Desafios de Sintaxe](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe).
+
+---
