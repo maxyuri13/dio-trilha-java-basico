@@ -73,6 +73,10 @@ public class AccountTerminal {
         double balance = scanner.nextDouble();
 
         AccountTerminal account = new AccountTerminal(number, agency, clientName, balance);
-        System.out.println(account);
+        System.out.println("Hello " + clientName + ", thank you for creating an account with our bank. Your agency is "
+                + agency + ", account " + number + " and your balance $" + balance
+                + " is now available for withdrawal.");
+
+        scanner.close();
     }
 }
