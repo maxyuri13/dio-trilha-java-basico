@@ -1,18 +1,17 @@
-## Getting Started
+# Projeto de Análise de Candidatos - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido com o apoio da DIO (Digital Innovation One), com base em vídeos que abordam a análise de candidatos para uma oferta de emprego em quatro etapas principais utilizando Java.
 
-## Folder Structure
+## Funcionalidades Implementadas:
 
-The workspace contains two folders by default, where:
+1. **Análise dos Candidatos:**
+   - Implementação das funcionalidades para analisar os dados dos candidatos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. **Seleção de Candidatos:**
+   - Lógica para selecionar candidatos com base em critérios definidos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. **Impressão da Lista de Candidatos Selecionados:**
+   - Função para gerar e imprimir uma lista dos candidatos selecionados.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. **Realização de Chamadas para Candidatos Selecionados:**
+   - Integração para realizar chamadas telefônicas aos candidatos selecionados.
