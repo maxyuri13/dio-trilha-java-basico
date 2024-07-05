@@ -1,4 +1,4 @@
-# Flow Control Challenge - DIO
+# Flux Control Challenge - DIO
 
 This project is a solution to the challenge proposed by Digital Innovation One (DIO) in the module of mastering the Java programming language, where I developed a Java application to simulate the counting and printing of numbers based on two parameters provided by the user via terminal.
 
