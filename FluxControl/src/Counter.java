@@ -14,6 +14,9 @@ public class Counter {
 
         } catch (InvalidParametersException exception) {
             System.out.println("The second parameter must be greater than the first");
+
+        } finally {
+            terminal.close();
         }
 
     }
