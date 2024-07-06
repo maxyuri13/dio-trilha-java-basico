@@ -1,0 +1,37 @@
+@startuml IphoneDiagram
+
+interface MusicPlayer {
+    + play()
+    + pause()
+    + selectMusic(String music)
+}
+
+interface Phone {
+    + call(String number)
+    + answer()
+    + startVoicemail()
+}
+
+interface WebBrowser {
+    + displayPage(String url)
+    + addNewTab()
+    + refreshPage()
+}
+
+class iPhone {
+    + play()
+    + pause()
+    + selectMusic(String music)
+    + call(String number)
+    + answer()
+    + startVoicemail()
+    + displayPage(String url)
+    + addNewTab()
+    + refreshPage()
+}
+
+iPhone ..|> MusicPlayer
+iPhone ..|> Phone
+iPhone ..|> WebBrowser
+
+@enduml
